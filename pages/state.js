@@ -20,6 +20,6 @@ const State = (props) => <Fragment>
   </section>
 </Fragment>
 
-const mapState = (state) => ({ fullState: {...state } })
+const mapState = (state) => ({ fullState: { ...state } })
 
 export default withRematch(initStore, mapState)(State)
