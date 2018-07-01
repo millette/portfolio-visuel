@@ -1,6 +1,6 @@
 'use strict'
 
-// And new models here with both import and export statements
+// And new model references here with both import and export statements
 
 import auth from './auth'
 
