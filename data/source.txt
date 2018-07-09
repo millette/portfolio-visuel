@@ -1,4 +1,0 @@
-# --compressed does nothing :-(
-# --header "X-Requested-With: XMLHttpRequest" is required
-
-curl --compressed --header "Accept: application/json" --header "X-Requested-With: XMLHttpRequest" "https://pygma.ca/donnees" > donnees.json
