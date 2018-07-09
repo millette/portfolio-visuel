@@ -6,7 +6,6 @@ import React, { Fragment } from 'react'
 import Header from '../shared/components/header'
 import { initStore } from '../shared/store'
 import withRematch from '../shared/utils/withRematch'
-import Link from 'next/link'
 import { description } from '../package.json'
 
 const Home = () => <Fragment>
@@ -51,20 +50,6 @@ const Home = () => <Fragment>
             </ul>
           </div>
         </div>
-        <h3 className='title is-3'>Hierarchie</h3>
-        <p>
-          Le site répertorie tous les programmes du niveau collégial
-          de toutes les institutions québécoises.
-        </p>
-        <nav className='breadcrumb has-arrow-separator is-centered' aria-label='breadcrumbs'>
-          <ul>
-            <li><Link href='/programmes'><a>Programme</a></Link></li>
-            <li><Link href='/cegeps'><a>CÉGEP</a></Link></li>
-            <li><Link href='/'><a>Session</a></Link></li>
-            <li><Link href='/profs'><a>Professeur</a></Link></li>
-            <li><Link href='/cours'><a>Cours</a></Link></li>
-          </ul>
-        </nav>
       </div>
     </div>
   </section>
