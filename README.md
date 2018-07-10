@@ -1,7 +1,7 @@
 # Portfolio visuel
 
 * <https://github.com/millette/portfolio-visuel>
-* <https://pfv-askswyapcf.now.sh>
+* <https://pfv-ujlbwefzwp.now.sh/>
 
 Demo of a react/redux app built with [Next.js](https://nextjs.org/) and
 using [Bulma css](https://bulma.io/).
